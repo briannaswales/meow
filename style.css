@@ -1,0 +1,301 @@
+.topnav, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px -2px rgba(148,187,233,1);
+  }
+  
+  .topnav, li {
+    float: left;
+  }
+  
+  .topnav, li a {
+    display: block;
+    color: rgba(148,187,233,1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: wingdings;
+    font-size: 18px;
+  }
+  
+
+  /* Change the link color to #111 (black) on hover */
+  .topnav, li a:hover {
+    background-color: white, 0.3;
+    color: #eeaeca;
+  }
+
+
+  .header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background: none;
+  }
+
+  .header h1 {
+    text-shadow: 0px 0px #000, 2px 2px  #eeaeca, 4px 4px rgba(148,187,233,1);
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 78px;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+}
+
+body {
+      font-family: helvetica;
+      letter-spacing: 1px;
+      line-height: 14px;
+      background-color: white;
+      font-size: 10px;
+  }
+
+  .rotate90 {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 100%;
+    top: 0;
+    border: 0;
+    opacity: 0.3;
+    z-index: -1;
+    position: fixed;
+}
+
+.card1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    height: 400px;
+    margin: 100px;
+    width: 600px;
+    opacity: 100%;
+    z-index: -1;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 0 2px 2px -2px rgba(148,187,233,1);
+}
+
+.card2 {
+    background-color: none;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 0;
+    width: 100%;
+    opacity: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+    z-index: -1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+        text-align: center;
+        background: none;
+        height: 10px;
+        margin-top: 20px;
+        color: white;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-weight:lighter;
+        font-style: italic;
+}
+
+.header2 h2 {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 200px;
+    z-index: 0;
+}
+
+.thumbnail {
+    opacity: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+}
+
+div.gallery {
+  margin: 5px;
+  margin-bottom: 0px;
+  border: 1px solid white;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid white;
+  box-shadow: 0 2px 2px -2px rgba(148,187,233,1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 25px;
+  margin: 0px;
+  text-align: center;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style all font awesome icons */
+.fa {
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px;
+  margin: 200px;
+}
+
+/* Add a hover effect if you want */
+.fa a:hover {
+  color: rgba(148,187,233,1);
+  box-shadow: 0 2px 2px -2px rgba(148,187,233,1);
+}
+
+.fa-discord {
+  background: none;
+  color: white;
+  font-size: 100px;
+  padding: 25px;
+}
+
+
+.fa-linkedin {
+  background: none;
+  color: white;
+  font-size: 100px;
+  padding: 25px;
+}
+
+.fa-stack-overflow {
+  background: none;
+  color: white;
+  font-size: 100px;
+  padding: 25px;
+}
+
+.fa-github-square {
+  background: none;
+  color: white;
+  font-size: 100px;
+  padding: 25px;
+}
+
+h4 {
+  font-size: 2em;
+  text-shadow: 0px 0px white, 1px 1px rgba(148,187,233,1), 2px 2px rgba(148,187,233,1);
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(148,187,233,1);
+}
+
+.contact, .about {
+  padding-top: 30px;
+}
+
+.contact-space {
+  left: 200px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border-top: 0px;
+  border-bottom: 2px solid #eeaeca; /* Gray border */
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px; /* Rounded borders */
+  box-sizing: border-box;/* Make sure that padding and width stays in place */
+  margin-top: 0px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgba(148,187,233,1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  box-shadow: 0 2px 2px -2px rgba(148,187,233,1);
+}
+
+/* Add a background color and some padding around the form */
+.contact-form {
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+}
+
+.computer-pic {
+  width: 600px;
+  padding: 25px;
+  opacity: 65%;
+}
+
+p {
+  line-height: 22px;
+  text-transform: lowercase;
+}
